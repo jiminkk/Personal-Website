@@ -1,0 +1,44 @@
+@charset "utf-8"
+/* CSS code */
+/* styling Jasmine Kim website */
+
+/* basics */
+* {
+	font-family: "Comic Sans";
+	color: #191970;		/*  midnight blue */
+}
+
+
+/* style */
+#wrapper {
+	padding: 1px;
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0px auto 0px auto;
+}
+
+#header {
+	width: 640px;
+	margin: 125px auto 150px auto;
+}
+
+#title {
+	font-size: 64px;
+	/*font-family: Georgia;*/
+	color: #191970;
+	margin-right: 10px;
+	float: left;
+	text-align: right;
+}
+
+#motto {
+	font-style: italic;
+	/*font-family: Cantarell;*/
+	color: #FF8C00;			/* dark orange */
+	padding: 20px 0 0 0;
+}
+
+#nav {
+	text-align: center;
+	font-size: 14px;
+}
