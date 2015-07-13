@@ -1,44 +1,159 @@
-@charset "utf-8"
+@charset {"utf-8"}
 /* CSS code */
 /* styling Jasmine Kim website */
 
 /* basics */
-* {
-	font-family: "Comic Sans";
-	color: #191970;		/*  midnight blue */
+body {
+	font-family: 'Georgia';
+	color: #0a0a0a;
+	background-color: #fafafa;
+	margin: 0px;
+	font-size: 14px;
+	text-align: justify;
+	background-repeat: no-repeat;
+	line-height: 100%;
 }
 
+h1 {
+	font-family: 'Raleway';
+	font-weight: 400;
+}
 
 /* style */
 #wrapper {
-	padding: 1px;
-	max-width: 1000px;
-	min-width: 500px;
-	margin: 0px auto 0px auto;
+	width: 930px;
+	padding: 0px;
+	margin: 0px auto;
+	background: #fafafa;
+	display: flex
+	flex-direction: row;
 }
 
-#header {
-	width: 640px;
-	margin: 125px auto 150px auto;
+#topbar {
+	width: 930px;
+	height: 70px;
+	background: #465071;
+	/*text-transform: lowercase;*/
+	display: inline-block;
+	font-family: 'Raleway';
+	font-weight: 200;
 }
 
-#title {
-	font-size: 64px;
-	/*font-family: Georgia;*/
-	color: #191970;
-	margin-right: 10px;
+.title {
+	color: #fafafa;
 	float: left;
-	text-align: right;
-}
-
-#motto {
-	font-style: italic;
-	/*font-family: Cantarell;*/
-	color: #FF8C00;			/* dark orange */
-	padding: 20px 0 0 0;
-}
-
-#nav {
+	width: 300px;
+	font-size: 10px;
+	line-height: 42px;
 	text-align: center;
-	font-size: 14px;
 }
+
+.nav {
+	width: 630px;
+	height: 70px;
+	float: right;
+	text-align: center;
+}
+
+.nav a {
+	margin: 0px 20px;
+	line-height: 70px;
+	font-size: 16px;
+	color: #fafafa;
+	text-decoration: initial;
+}
+
+#description {
+	width: 930px;
+	height: auto;
+}
+
+#xmaspor {
+	height: 363px;
+	width: 300px;
+	padding: 10px 0 1px 0;
+}
+
+#description div {
+	float: right;
+	width: 600px;
+	height: auto;
+}
+
+#description h2 {
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 30px;
+}
+
+#description p {
+	margin-top: 50px;
+	margin-right: 10px;
+	line-height: 150%;
+}
+
+#content {
+	width: 930px;
+	height: auto;
+}
+
+#port_col_1 {
+	width: 465px;
+	height: auto;
+}
+
+#content img {
+	width: 80%;
+}
+
+.socialIcons {
+	width: 260px;
+	background-color: #465071;
+	list-style-type: none;
+}
+
+.social-text {
+	height: 12px;
+	color: #fafafa;
+}
+
+.socialIcons li {
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 10px;
+	height: 12px;
+	margin: 0 0 0 -40px;
+	text-align: center;
+	padding: 5px;
+}
+
+.socialIcons a {
+	text-decoration: initial;
+}
+
+#footer {
+	font-size: 10px;
+	clear: both;
+	padding: 300px auto 0 0;
+}
+
+* {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
