@@ -1,3 +1,3 @@
-Jasmine's Personal Website -- Version 1.0
+# Jasmine's Personal Website -- Version 1.0
 
-Made from scratch and with love.
+### Made from scratch and with love.
